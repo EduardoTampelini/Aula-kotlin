@@ -1,22 +1,23 @@
 fun main(args: Array<String>) {
-    var neverNull: String = "this can't be null"
 
-    neverNull = null
+    //var neverNull: String = "this can't be null"
 
-    var nullable: String? = "you can keep a null here"
+    //neverNull = null
 
-    nullable = null
+   // var nullable: String? = "you can keep a null here"
 
-    var inferredNonNull = "the compiler assumes non-null"
+    //nullable = null
 
-    inferredNonNull = null
+    //var inferredNonNull = "the compiler assumes non-null"
 
-    fun strLength (notNull: String): Int{
-        return notNull.length
-    }
+    //inferredNonNull = null
 
-    strLength(neverNull)
-    strLength(nullable)
+    //fun strLength (notNull: String): Int{
+    //    return notNull.length
+   // }
+
+    //strLength(neverNull)
+    //strLength(nullable)
     //printMessage("Hello")
     //printMessageWhithPrefix("hello", "Log")
     //printMessageWhithPrefix("hello")
